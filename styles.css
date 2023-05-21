@@ -249,9 +249,12 @@ a:hover {
     padding: 2em;
     text-align: center; 
     font-weight: bolder;
-    box-sizing: border-box;
+
+
     
 }
+
+
 * {
     font-family: 'Lilita One', 'sans-serif';
     font-weight: 400;
