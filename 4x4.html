@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matrix Calculator</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    
+    <div class="header">
+        <div>
+    <h1 class="name">Matrix Calculator</h1>
+</div>
+    <nav class="footer">
+        <ul>
+            <li><a href="./index.html"> 2x2</li></a>
+            <li><a href="./3x3.html"> 3x3</li></a>
+            <li><a href="./4x4.html"> 4x4</li></a>
+        </ul>
+    </nav> 
+    </div>
+    </div>
+<span>
+    <p class="x">4x4 Matrix</p>
+    <form action="onsubmit">
+        <fieldset><legend><h2>Enter Matrix Values</h2></legend>
+            <row>
+               
+                <input class="input4" type="number" id="a1" >
+                
+                <input class="input4" type="number" id="a2">
+                
+                <input class="input4" type="number" id="a3">
+
+                <input class="input4" type="number" id="a4">
+
+            </row>
+        
+            <row>
+
+                <input class="input4" type="number" id="a5">
+
+                <input class="input4" type="number" id="a6" >
+                
+                <input class="input4" type="number" id="a7">
+                
+                <input class="input4" type="number" id="a8">
+            </row>
+        
+            <row>
+               
+                <input class="input4" type="number" id="a9" >
+                
+                <input class="input4" type="number" id="a10">
+                
+                <input class="input4" type="number" id="a11">
+
+                <input class="input4" type="number" id="a12">
+
+            </row>
+
+          
+        
+            <row>
+               
+                <input class="input4" type="number" id="a13" >
+                
+                <input class="input4" type="number" id="a14">
+                
+                <input class="input4" type="number" id="a15">
+
+                <input class="input4" type="number" id="a16">
+
+            </row>
+        </fieldset>
+           
+            <fieldset>
+                <legend>
+                  <h2>  Enter Your Number</h2>
+                </legend>
+                <input type="number" class="value" required id="value">
+                </fieldset>
+           
+           
+        
+           
+           <row>
+            <button type="submit" class="button" onclick="add4(event)">Add</button>
+            <button type="submit" class="button" onclick="subtract4(event)">Subtract</button>
+            <button type="submit" class="button" onclick="multiply4(event)">Multiply</button>
+        </row>
+
+        <p class="on">You cannot divide a matrix because a matrix cannot be divided</p>
+</form>
+        <result>
+            <fieldset>
+                <legend>
+                    <h2>Result</h2>
+                </legend>
+                <p class="result" id="result4"></p>
+            </fieldset>
+        </result>
+
+
+        <br />
+        <hr />
+        <p class="end">Thanks For Visiting</p>
+        <p class="end">Regards! Muhammad Moiz&copy;</p>
+    </span>
+    <script src="./script.js" ></script>
+</body>
+</html>

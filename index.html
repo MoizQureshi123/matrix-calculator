@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matrix Calculator</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="./styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lilita+One&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <div class="header">
+        <div>
+    <h1 class="name">Matrix Calculator</h1>
+</div>
+    <nav class="footer">
+        <ul>
+            <li><a href="./index.html"> 2x2</li></a>
+            <li><a href="./3x3.html"> 3x3</li></a>
+            <li><a href="./4x4.html"> 4x4</li></a>
+        </ul>
+    </nav> 
+    </div>
+    </div>
+    <span>
+    <p class="x">2x2 Matrix</p>
+    <form action="onsubmit">
+        <fieldset><legend><h2>Enter Matrix Values</h2></legend>
+            <row>
+               
+                <input class="input" type="number" id="a1" >
+                
+                <input class="input" type="number" id="a2">
+            
+            </row>
+        
+            <row>
+               
+                <input class="input" type="number" id="a3" >
+                
+                <input class="input" type="number" id="a4">
+                
+            </row>
+        </fieldset>
+            <fieldset>
+                <legend>
+                  <h2>  Enter Your Number</h2>
+                </legend>
+                <input type="number" class="value" required id="value">
+                </fieldset>
+          
+           
+        
+           
+           <row>
+            <button type="submit" class="button" onclick="add(event)">Add</button>
+            <button type="submit" class="button" onclick="subtract(event)">Subtract</button>
+            <button type="submit" class="button" onclick="multiply(event)">Multiply</button>
+        </row>
+
+        <p class="on">You cannot divide a matrix because a matrix cannot be divided</p>
+    </form>
+        <result>
+            <fieldset>
+                <legend>
+                    <h2>Result</h2>
+                </legend>
+                <p class="result" id="result"></p>
+            </fieldset>
+        </result>
+
+
+        <br />
+        <hr />
+        <p class="end">Thanks For Visiting</p>
+        <p class="end">Regards! Muhammad Moiz&copy;</p>
+
+</span>
+
+<script src="./script.js" ></script>
+</body>
+</html>
