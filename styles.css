@@ -26,6 +26,7 @@ body{
  .name:hover{
     background-color:black;
     color:white;
+     
  }
  
 .header{
@@ -362,4 +363,44 @@ input::-webkit-inner-spin-button {
 
    
 } */
+
+@media screen and (max-width: 320px) {
+    body {
+      /* Modify body styles for mobile */
+      background-color: azure;
+    }
+  
+    .name {
+      /* Modify .name styles for mobile */
+      margin: 5px;
+    }
+  
+    .header {
+      /* Modify .header styles for mobile */
+      flex-direction: column;
+      padding: 10px;
+    }
+  
+    .footer > ul {
+      /* Modify .footer styles for mobile */
+      margin-right: 5px;
+      margin-left: 5px;
+    }
+  
+    .footer > ul > li > a {
+      /* Modify .footer > ul > li > a styles for mobile */
+      margin: 5px;
+      padding: 3px;
+      font-size: 0.8rem;
+    }
+  
+    /* Add more responsive styles for other elements as needed */
+   
+     form{
+       margin-inline-end: auto;
+        align-items:end;
+      
+     }
+    
+     }
     
